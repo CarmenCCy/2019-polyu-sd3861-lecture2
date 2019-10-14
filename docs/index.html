@@ -15,23 +15,28 @@
             font-family: 'Mansalva', cursive;
         }
         h1 {
-            font-size: 100px;color:rgb(95, 137, 160);
+            font-size: 50px;color:rgb(95, 137, 160);
             font-family: 'Merriweather', serif;
         }
+        #first-heading{
+            font-family: 'Mansalva', cursive;
+        }
+
          
     </style>
 
 </head>
 
 <body>
-    <h1>My Demo</h1>
+    <h1 id="first-heading">My Demo</h1>
+    <h1>Your Demo</h1>
     <svg class="pop" id="svg" width="300" height="300" viewbox="0 0 100 100">
         <filter id="blur">
             <feGaussianBlur stdDeviation="1" />
         </filter>
         <path class="slidein" id="mountain" fill="#ab9457" d="" />
     </svg>
-    <h1>Your Demo</h1>
+    
 
     <button onclick="generateMountain()">Generate mountain</button>
 
